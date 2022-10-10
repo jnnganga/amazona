@@ -38,9 +38,7 @@ const Layout = ({ children, title }) => {
 				<header className=''>
 					<nav className='flex h-12 justify-between items-center px-4 shadow-md'>
 						<Link href='/'>
-							<a className='text-lg font-bold text-orange-500git status'>
-								Amazona
-							</a>
+							<a className='text-lg font-bold text-orange-500'>Amazona</a>
 						</Link>
 						<div>
 							<Link href='/cart'>
