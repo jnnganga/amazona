@@ -36,7 +36,7 @@ const Layout = ({ children, title }) => {
 
 			<div className='flex flex-col justify-between min-h-screen '>
 				<header className=''>
-					<nav className='flex h-12 justify-between items-center px-4 shadow-md'>
+					<nav className='fixed top-0 z-10 w-full flex h-12 bg-white justify-between items-center px-4 shadow-md'>
 						<Link href='/'>
 							<a className='text-lg font-bold text-orange-500'>Amazona</a>
 						</Link>
@@ -94,7 +94,7 @@ const Layout = ({ children, title }) => {
 					</nav>
 				</header>
 
-				<main className='container m-auto mt-4 px-4'>{children}</main>
+				<main className='container m-auto mt-14 px-4'>{children}</main>
 				<footer className='flex justify-center items-center shadow-inner'>
 					Copyright © 2022 Amazona
 				</footer>
